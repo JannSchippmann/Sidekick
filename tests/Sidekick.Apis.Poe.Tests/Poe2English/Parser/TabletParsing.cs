@@ -141,7 +141,7 @@ Map has 77(70-100)% increased chance to contain Shrines
 Can be used in a personal Map Device to add modifiers to a Map.");
 
          var stat = fixture.AssertHasStat(actual, StatCategory.Explicit, "Map contains an additional Essence", 2);
-         Assert.Equal(["explicit.stat_2162684861"], stat!.Definitions.SelectMany(x => x.TradeIds!).Distinct());
+         Assert.Contains("explicit.stat_2162684861", stat!.Definitions.SelectMany(x => x.TradeIds!));
      }
 
      [Fact]

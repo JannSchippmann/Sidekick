@@ -5445,14 +5445,6 @@
     "pattern": "^Altares\\ Ritual\u00EDsticos\\ geram\\ um\\ L\u00FAmen\\ Selvagem$"
   },
   {
-    "text": "Altares ritual\u00EDsticos no mapa permitem recriar favores mais # vezes",
-    "lines": 1,
-    "tradeIds": [
-      "explicit.stat_120737942"
-    ],
-    "pattern": "^Altares\\ ritual\u00EDsticos\\ no\\ mapa\\ permitem\\ recriar\\ favores\\ mais\\ ([-0-9,.]\u002B)\\ vezes$"
-  },
-  {
     "text": "Altares Ritual\u00EDsticos na \u00E1rea permitem recriar favores mais uma vez",
     "value": 1,
     "lines": 1,
@@ -33791,14 +33783,6 @@
     "lines": 1,
     "tradeIds": [],
     "pattern": "^Colheitas\\ na\\ \u00E1rea\\ s\u00E3o\\ maiores\\ em\\ tamanho$"
-  },
-  {
-    "text": "Colmeias da Fenda no mapa t\u00EAm # levas de monstros Nascidos da Colmeia adicionais",
-    "lines": 1,
-    "tradeIds": [
-      "explicit.stat_2734787892"
-    ],
-    "pattern": "^Colmeias\\ da\\ Fenda\\ no\\ mapa\\ t\u00EAm\\ ([-0-9,.]\u002B)\\ levas\\ de\\ monstros\\ Nascidos\\ da\\ Colmeia\\ adicionais$"
   },
   {
     "text": "Colmeias da Fenda no mapa t\u00EAm 1 leva de monstros Nascidos da Colmeia adicional",
@@ -65856,28 +65840,12 @@
     "pattern": "^Expedi\u00E7\u00F5es\\ agora\\ podem\\ conter\\ Sentinelas\\ de\\ Ver\u00EDsio$"
   },
   {
-    "text": "Expedi\u00E7\u00F5es cont\u00EAm # Rel\u00EDquias Vaal no mapa",
-    "lines": 1,
-    "tradeIds": [
-      "explicit.stat_2852112245"
-    ],
-    "pattern": "^Expedi\u00E7\u00F5es\\ cont\u00EAm\\ ([-0-9,.]\u002B)\\ Rel\u00EDquias\\ Vaal\\ no\\ mapa$"
-  },
-  {
     "text": "Expedi\u00E7\u00F5es cont\u00EAm 1 Rel\u00EDquia Vaal no mapa",
     "lines": 1,
     "tradeIds": [
       "explicit.stat_2852112245"
     ],
     "pattern": "^Expedi\u00E7\u00F5es\\ cont\u00EAm\\ 1\\ Rel\u00EDquia\\ Vaal\\ no\\ mapa$"
-  },
-  {
-    "text": "Expedi\u00E7\u00F5es cont\u00EAm # Sentinelas de Ver\u00EDsio adicionais no mapa",
-    "lines": 1,
-    "tradeIds": [
-      "explicit.stat_1109460697"
-    ],
-    "pattern": "^Expedi\u00E7\u00F5es\\ cont\u00EAm\\ ([-0-9,.]\u002B)\\ Sentinelas\\ de\\ Ver\u00EDsio\\ adicionais\\ no\\ mapa$"
   },
   {
     "text": "Expedi\u00E7\u00F5es cont\u00EAm 1 Sentinela de Ver\u00EDsio adicional no mapa",
@@ -65888,28 +65856,12 @@
     "pattern": "^Expedi\u00E7\u00F5es\\ cont\u00EAm\\ 1\\ Sentinela\\ de\\ Ver\u00EDsio\\ adicional\\ no\\ mapa$"
   },
   {
-    "text": "Expedi\u00E7\u00F5es cont\u00EAm # caixas-forte enterradas no mapa",
-    "lines": 1,
-    "tradeIds": [
-      "explicit.stat_181823691"
-    ],
-    "pattern": "^Expedi\u00E7\u00F5es\\ cont\u00EAm\\ ([-0-9,.]\u002B)\\ caixas-forte\\ enterradas\\ no\\ mapa$"
-  },
-  {
     "text": "Expedi\u00E7\u00F5es cont\u00EAm 1 caixa-forte enterrada no mapa",
     "lines": 1,
     "tradeIds": [
       "explicit.stat_181823691"
     ],
     "pattern": "^Expedi\u00E7\u00F5es\\ cont\u00EAm\\ 1\\ caixa-forte\\ enterrada\\ no\\ mapa$"
-  },
-  {
-    "text": "Expedi\u00E7\u00F5es cont\u00EAm # chefes encapsulados no gelo adicionais no mapa",
-    "lines": 1,
-    "tradeIds": [
-      "explicit.stat_1183698646"
-    ],
-    "pattern": "^Expedi\u00E7\u00F5es\\ cont\u00EAm\\ ([-0-9,.]\u002B)\\ chefes\\ encapsulados\\ no\\ gelo\\ adicionais\\ no\\ mapa$"
   },
   {
     "text": "Expedi\u00E7\u00F5es cont\u00EAm 1 chefe encapsulado no gelo adicional no mapa",
@@ -67022,14 +66974,6 @@
     "lines": 1,
     "tradeIds": [],
     "pattern": "^Fenda\\ tem\\ ([-0-9,.]\u002B)%\\ de\\ chance\\ de\\ conter\\ um\\ chefe$"
-  },
-  {
-    "text": "Fendas Inst\u00E1veis no mapa geram # monstros raros adicionais quando estabilizadas",
-    "lines": 1,
-    "tradeIds": [
-      "explicit.stat_3762913035"
-    ],
-    "pattern": "^Fendas\\ Inst\u00E1veis\\ no\\ mapa\\ geram\\ ([-0-9,.]\u002B)\\ monstros\\ raros\\ adicionais\\ quando\\ estabilizadas$"
   },
   {
     "text": "Fendas Inst\u00E1veis geram 1 monstro raro adicional quando estabilizadas",
@@ -104423,15 +104367,6 @@
     "pattern": "^Mapa\\ cont\u00E9m\\ 1\\ Abismo\\ adicional$"
   },
   {
-    "text": "Mapa cont\u00E9m # altares adicionais",
-    "lines": 1,
-    "tradeIds": [
-      "explicit.stat_3042527515",
-      "explicit.stat_1468737867"
-    ],
-    "pattern": "^Mapa\\ cont\u00E9m\\ ([-0-9,.]\u002B)\\ altares\\ adicionais$"
-  },
-  {
     "text": "Mapa cont\u00E9m 1 altar adicional",
     "lines": 1,
     "tradeIds": [
@@ -104439,14 +104374,6 @@
       "explicit.stat_3042527515"
     ],
     "pattern": "^Mapa\\ cont\u00E9m\\ 1\\ altar\\ adicional$"
-  },
-  {
-    "text": "Mapa cont\u00E9m # ba\u00FAs raros adicionais",
-    "lines": 1,
-    "tradeIds": [
-      "explicit.stat_231864447"
-    ],
-    "pattern": "^Mapa\\ cont\u00E9m\\ ([-0-9,.]\u002B)\\ ba\u00FAs\\ raros\\ adicionais$"
   },
   {
     "text": "Mapa cont\u00E9m 1 ba\u00FA raro adicional",
@@ -104479,14 +104406,6 @@
       "explicit.stat_775597083"
     ],
     "pattern": "^Mapa\\ cont\u00E9m\\ 1\\ esp\u00EDrito\\ azmeri\\ adicional$"
-  },
-  {
-    "text": "Mapa cont\u00E9m # ess\u00EAncias adicionais",
-    "lines": 1,
-    "tradeIds": [
-      "explicit.stat_2162684861"
-    ],
-    "pattern": "^Mapa\\ cont\u00E9m\\ ([-0-9,.]\u002B)\\ ess\u00EAncias\\ adicionais$"
   },
   {
     "text": "Mapa cont\u00E9m 1 ess\u00EAncia adicional",
@@ -104534,19 +104453,9 @@
     "text": "Mapa cont\u00E9m # caixas-forte adicionais",
     "lines": 1,
     "tradeIds": [
-      "explicit.stat_3040603554",
       "explicit.stat_3240183538"
     ],
     "pattern": "^Mapa\\ cont\u00E9m\\ ([-0-9,.]\u002B)\\ caixas-forte\\ adicionais$"
-  },
-  {
-    "text": "Mapa cont\u00E9m # esp\u00EDritos azmeri adicionais",
-    "lines": 1,
-    "tradeIds": [
-      "explicit.stat_775597083",
-      "explicit.stat_358129101"
-    ],
-    "pattern": "^Mapa\\ cont\u00E9m\\ ([-0-9,.]\u002B)\\ esp\u00EDritos\\ azmeri\\ adicionais$"
   },
   {
     "text": "Mapa cont\u00E9m # esp\u00EDrito azmeri adicional",
@@ -105129,14 +105038,6 @@
     "lines": 1,
     "tradeIds": [],
     "pattern": "^Matar\\ inimigos\\ em\\ uma\\ sequ\u00EAncia\\ de\\ abates\\ na\\ pr\u00F3xima\\ \u00E1rea\\ conceder\u00E1\\ b\u00F4nus\\ de\\ Furor$"
-  },
-  {
-    "text": "Matar monstros raros no mapa pausa o temporizador do Espelho de Del\u00EDrio por # segundos",
-    "lines": 1,
-    "tradeIds": [
-      "explicit.stat_2323782229"
-    ],
-    "pattern": "^Matar\\ monstros\\ raros\\ no\\ mapa\\ pausa\\ o\\ temporizador\\ do\\ Espelho\\ de\\ Del\u00EDrio\\ por\\ ([-0-9,.]\u002B)\\ segundos$"
   },
   {
     "text": "Matar monstros em seus mapas pausa o temporizador do Espelho de Del\u00EDrio por 1 segundo",
@@ -114737,14 +114638,6 @@
     "lines": 1,
     "tradeIds": [],
     "pattern": "^O\\ primeiro\\ impacto\\ tem\\ \\\u002B([-0-9,.]\u002B)%\\ de\\ \u00E1rea\\ de\\ efeito$"
-  },
-  {
-    "text": "Os primeiros # monstros r\u00FAnicos desenterrados ser\u00E3o monstros raros no mapa",
-    "lines": 1,
-    "tradeIds": [
-      "explicit.stat_3963944561"
-    ],
-    "pattern": "^Os\\ primeiros\\ ([-0-9,.]\u002B)\\ monstros\\ r\u00FAnicos\\ desenterrados\\ ser\u00E3o\\ monstros\\ raros\\ no\\ mapa$"
   },
   {
     "text": "O primeiro monstro r\u00FAnico desenterrado ser\u00E1 um monstro raro no mapa",

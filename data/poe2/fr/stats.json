@@ -19937,14 +19937,6 @@
     "pattern": "^Dans\\ la\\ Carte,\\ les\\ Abysses\\ ont\\ ([-0-9,.]\u002B)%\\ d\u0027Augmentation\\ de\\ nombre\\ de\\ Monstres\\ g\u00E9n\u00E9r\u00E9s$"
   },
   {
-    "text": "Dans la Carte, les Autels de Rituel vous permettent de tirer au sort de nouvelles Faveurs # fois de plus",
-    "lines": 1,
-    "tradeIds": [
-      "explicit.stat_120737942"
-    ],
-    "pattern": "^Dans\\ la\\ Carte,\\ les\\ Autels\\ de\\ Rituel\\ vous\\ permettent\\ de\\ tirer\\ au\\ sort\\ de\\ nouvelles\\ Faveurs\\ ([-0-9,.]\u002B)\\ fois\\ de\\ plus$"
-  },
-  {
     "text": "Dans la Carte, les Autels de Rituel vous permettent de tirer au sort de nouvelles Faveurs une fois de plus",
     "lines": 1,
     "tradeIds": [
@@ -20016,14 +20008,6 @@
       "explicit.stat_1653625239"
     ],
     "pattern": "^Dans\\ la\\ Carte,\\ les\\ Br\u00E8ches\\ g\u00E9n\u00E8rent\\ un\\ Monstre\\ Rare\\ suppl\u00E9mentaire$"
-  },
-  {
-    "text": "Dans la Carte, les Br\u00E8ches instables g\u00E9n\u00E8rent # Monstres Rares suppl\u00E9mentaires une fois Stabilis\u00E9es",
-    "lines": 1,
-    "tradeIds": [
-      "explicit.stat_3762913035"
-    ],
-    "pattern": "^Dans\\ la\\ Carte,\\ les\\ Br\u00E8ches\\ instables\\ g\u00E9n\u00E8rent\\ ([-0-9,.]\u002B)\\ Monstres\\ Rares\\ suppl\u00E9mentaires\\ une\\ fois\\ Stabilis\u00E9es$"
   },
   {
     "text": "Dans la Carte, les Br\u00E8ches instables g\u00E9n\u00E8rent un Monstre Rare suppl\u00E9mentaire une fois Stabilis\u00E9es",
@@ -20239,14 +20223,6 @@
     "pattern": "^Dans\\ la\\ Carte,\\ les\\ Rencontres\\ du\\ D\u00E9lire\\ ont\\ ([-0-9,.]\u002B)%\\ davantage\\ de\\ chances\\ de\\ g\u00E9n\u00E9rer\\ des\\ Boss\\ Uniques$"
   },
   {
-    "text": "Dans la Carte, les Ruches de Br\u00E8che g\u00E9n\u00E8rent # vagues suppl\u00E9mentaires de Ruchen\u00E9s",
-    "lines": 1,
-    "tradeIds": [
-      "explicit.stat_2734787892"
-    ],
-    "pattern": "^Dans\\ la\\ Carte,\\ les\\ Ruches\\ de\\ Br\u00E8che\\ g\u00E9n\u00E8rent\\ ([-0-9,.]\u002B)\\ vagues\\ suppl\u00E9mentaires\\ de\\ Ruchen\u00E9s$"
-  },
-  {
     "text": "Dans la Carte, les Ruches de Br\u00E8che g\u00E9n\u00E8rent une vague suppl\u00E9mentaire de Ruchen\u00E9s",
     "lines": 1,
     "tradeIds": [
@@ -20261,14 +20237,6 @@
       "explicit.stat_3078574625"
     ],
     "pattern": "^Dans\\ la\\ Carte,\\ les\\ Vestiges\\ d\u0027Exp\u00E9dition\\ ont\\ ([-0-9,.]\u002B)%\\ d\u0027Augmentation\\ d\u0027Effet$"
-  },
-  {
-    "text": "Dans la Carte, tuer des Monstres Rares met le compte \u00E0 rebours du Miroir du D\u00E9lire en pause pendant # secondes",
-    "lines": 1,
-    "tradeIds": [
-      "explicit.stat_2323782229"
-    ],
-    "pattern": "^Dans\\ la\\ Carte,\\ tuer\\ des\\ Monstres\\ Rares\\ met\\ le\\ compte\\ \u00E0\\ rebours\\ du\\ Miroir\\ du\\ D\u00E9lire\\ en\\ pause\\ pendant\\ ([-0-9,.]\u002B)\\ secondes$"
   },
   {
     "text": "Dans la Carte, tuer des Monstres Rares met le compte \u00E0 rebours du Miroir du D\u00E9lire en pause pendant 1 seconde",
@@ -38616,19 +38584,9 @@
     "text": "La Carte contient # Coffres-forts suppl\u00E9mentaires",
     "lines": 1,
     "tradeIds": [
-      "explicit.stat_3040603554",
       "explicit.stat_3240183538"
     ],
     "pattern": "^La\\ Carte\\ contient\\ ([-0-9,.]\u002B)\\ Coffres-forts\\ suppl\u00E9mentaires$"
-  },
-  {
-    "text": "La Carte contient # Esprits azm\u00E9riens suppl\u00E9mentaires",
-    "lines": 1,
-    "tradeIds": [
-      "explicit.stat_775597083",
-      "explicit.stat_358129101"
-    ],
-    "pattern": "^La\\ Carte\\ contient\\ ([-0-9,.]\u002B)\\ Esprits\\ azm\u00E9riens\\ suppl\u00E9mentaires$"
   },
   {
     "text": "La Carte contient # Esprit azm\u00E9rien suppl\u00E9mentaire",
@@ -38671,15 +38629,6 @@
     "pattern": "^La\\ Carte\\ contient\\ un\\ Abysse\\ suppl\u00E9mentaire$"
   },
   {
-    "text": "La Carte contient # Autels suppl\u00E9mentaires",
-    "lines": 1,
-    "tradeIds": [
-      "explicit.stat_3042527515",
-      "explicit.stat_1468737867"
-    ],
-    "pattern": "^La\\ Carte\\ contient\\ ([-0-9,.]\u002B)\\ Autels\\ suppl\u00E9mentaires$"
-  },
-  {
     "text": "La Carte contient un Autel suppl\u00E9mentaire",
     "lines": 1,
     "tradeIds": [
@@ -38695,14 +38644,6 @@
       "explicit.stat_2839545956"
     ],
     "pattern": "^La\\ Carte\\ contient\\ un\\ Cercle\\ d\u0027invocation\\ suppl\u00E9mentaire$"
-  },
-  {
-    "text": "La Carte contient # Coffres Rares suppl\u00E9mentaires",
-    "lines": 1,
-    "tradeIds": [
-      "explicit.stat_231864447"
-    ],
-    "pattern": "^La\\ Carte\\ contient\\ ([-0-9,.]\u002B)\\ Coffres\\ Rares\\ suppl\u00E9mentaires$"
   },
   {
     "text": "La Carte contient un Coffre Rare suppl\u00E9mentaire",
@@ -38733,14 +38674,6 @@
     "lines": 1,
     "tradeIds": [],
     "pattern": "^La\\ Carte\\ contient\\ un\\ Tr\u00E9sor\\ enfoui$"
-  },
-  {
-    "text": "La Carte contient # Essences suppl\u00E9mentaires",
-    "lines": 1,
-    "tradeIds": [
-      "explicit.stat_2162684861"
-    ],
-    "pattern": "^La\\ Carte\\ contient\\ ([-0-9,.]\u002B)\\ Essences\\ suppl\u00E9mentaires$"
   },
   {
     "text": "La Carte contient une Essence suppl\u00E9mentaire",

@@ -23081,14 +23081,6 @@
     "pattern": "^\uC9C0\uB3C4\\ \uB0B4\\ \uBCA0\uB9AC\uC2DC\uC6C0\\ \uC720\uC801\uC774\\ \uCD94\uAC00\\ \uB8EC\\ \uC18D\uC131\uC744\\ \uCD94\uAC00\uD560\\ \uD655\uB960\\ \\\u002B([-0-9,.]\u002B)%$"
   },
   {
-    "text": "\uC9C0\uB3C4 \uB0B4 \uBD88\uC548\uC815\uD55C \uADE0\uC5F4\uC774 \uC548\uC815\uD654\uB418\uBA74 \uD76C\uADC0 \uBAAC\uC2A4\uD130 #\uB9C8\uB9AC\uB97C \uCD94\uAC00\uB85C \uC0DD\uC131\uD568",
-    "lines": 1,
-    "tradeIds": [
-      "explicit.stat_3762913035"
-    ],
-    "pattern": "^\uC9C0\uB3C4\\ \uB0B4\\ \uBD88\uC548\uC815\uD55C\\ \uADE0\uC5F4\uC774\\ \uC548\uC815\uD654\uB418\uBA74\\ \uD76C\uADC0\\ \uBAAC\uC2A4\uD130\\ ([-0-9,.]\u002B)\uB9C8\uB9AC\uB97C\\ \uCD94\uAC00\uB85C\\ \uC0DD\uC131\uD568$"
-  },
-  {
     "text": "\uC9C0\uB3C4 \uB0B4 \uBD88\uC548\uC815\uD55C \uADE0\uC5F4\uC774 \uC548\uC815\uD654\uB418\uBA74 \uD76C\uADC0 \uBAAC\uC2A4\uD130 1\uB9C8\uB9AC\uB97C \uCD94\uAC00\uB85C \uC0DD\uC131\uD568",
     "lines": 1,
     "tradeIds": [
@@ -23103,14 +23095,6 @@
       "explicit.stat_4104094246"
     ],
     "pattern": "^\uC9C0\uB3C4\\ \uB0B4\\ \uBD88\uC548\uC815\uD55C\\ \uADE0\uC5F4\uC774\\ \uD0C0\uC774\uBA38\uAC00\\ \uCC28\uACE0\\ 1\uCD08\\ \uD6C4\\ \uBB34\uB108\uC9D0$"
-  },
-  {
-    "text": "\uC9C0\uB3C4 \uB0B4 \uCC98\uC74C\uC73C\uB85C \uBC1C\uAD74\uB418\uB294 \uB8EC \uBAAC\uC2A4\uD130 #\uB9C8\uB9AC\uAC00 \uD76C\uADC0 \uBAAC\uC2A4\uD130",
-    "lines": 1,
-    "tradeIds": [
-      "explicit.stat_3963944561"
-    ],
-    "pattern": "^\uC9C0\uB3C4\\ \uB0B4\\ \uCC98\uC74C\uC73C\uB85C\\ \uBC1C\uAD74\uB418\uB294\\ \uB8EC\\ \uBAAC\uC2A4\uD130\\ ([-0-9,.]\u002B)\uB9C8\uB9AC\uAC00\\ \uD76C\uADC0\\ \uBAAC\uC2A4\uD130$"
   },
   {
     "text": "\uC9C0\uB3C4 \uB0B4 \uCC98\uC74C\uC73C\uB85C \uBC1C\uAD74\uB418\uB294 \uB8EC \uBAAC\uC2A4\uD130\uAC00 \uD76C\uADC0 \uBAAC\uC2A4\uD130",
@@ -23128,14 +23112,6 @@
       "fractured.stat_57434274"
     ],
     "pattern": "^\uC9C0\uB3C4\\ \uB0B4\\ \uACBD\uD5D8\uCE58\\ \uD68D\uB4DD\\ ([-0-9,.]\u002B)%\\ \uC99D\uAC00$"
-  },
-  {
-    "text": "\uC9C0\uB3C4 \uB0B4 \uADE0\uC5F4 \uBC8C\uB808\uC9D1\uC774 \uBC8C\uB808\uC9D1 \uD0DC\uC0DD \uBAAC\uC2A4\uD130 \uC6E8\uC774\uBE0C #\uAC1C\uB97C \uCD94\uAC00\uB85C \uBCF4\uC720",
-    "lines": 1,
-    "tradeIds": [
-      "explicit.stat_2734787892"
-    ],
-    "pattern": "^\uC9C0\uB3C4\\ \uB0B4\\ \uADE0\uC5F4\\ \uBC8C\uB808\uC9D1\uC774\\ \uBC8C\uB808\uC9D1\\ \uD0DC\uC0DD\\ \uBAAC\uC2A4\uD130\\ \uC6E8\uC774\uBE0C\\ ([-0-9,.]\u002B)\uAC1C\uB97C\\ \uCD94\uAC00\uB85C\\ \uBCF4\uC720$"
   },
   {
     "text": "\uC9C0\uB3C4 \uB0B4 \uADE0\uC5F4 \uBC8C\uB808\uC9D1\uC774 \uBC8C\uB808\uC9D1 \uD0DC\uC0DD \uBAAC\uC2A4\uD130 \uC6E8\uC774\uBE0C 1\uAC1C\uB97C \uCD94\uAC00\uB85C \uBCF4\uC720",
@@ -23208,14 +23184,6 @@
       "explicit.stat_2895378479"
     ],
     "pattern": "^\uC9C0\uB3C4\\ \uB0B4\\ \uD76C\uADC0\\ \uADE0\uC5F4\\ \uBAAC\uC2A4\uD130\uC758\\ \uD6A8\uC728\\ ([-0-9,.]\u002B)%\\ \uC99D\uAC00$"
-  },
-  {
-    "text": "\uC9C0\uB3C4 \uB0B4 \uD76C\uADC0 \uBAAC\uC2A4\uD130 \uCC98\uCE58 \uC2DC \uD658\uC601 \uAC70\uC6B8 \uD0C0\uC774\uBA38 #\uCD08 \uB3D9\uC548 \uC77C\uC2DC \uC815\uC9C0",
-    "lines": 1,
-    "tradeIds": [
-      "explicit.stat_2323782229"
-    ],
-    "pattern": "^\uC9C0\uB3C4\\ \uB0B4\\ \uD76C\uADC0\\ \uBAAC\uC2A4\uD130\\ \uCC98\uCE58\\ \uC2DC\\ \uD658\uC601\\ \uAC70\uC6B8\\ \uD0C0\uC774\uBA38\\ ([-0-9,.]\u002B)\uCD08\\ \uB3D9\uC548\\ \uC77C\uC2DC\\ \uC815\uC9C0$"
   },
   {
     "text": "\uC9C0\uB3C4 \uB0B4 \uD76C\uADC0 \uBAAC\uC2A4\uD130 \uCC98\uCE58 \uC2DC \uD658\uC601 \uAC70\uC6B8 \uD0C0\uC774\uBA38 1\uCD08 \uB3D9\uC548 \uC77C\uC2DC \uC815\uC9C0",
@@ -23427,28 +23395,12 @@
     "pattern": "^\uC9C0\uB3C4\\ \uB0B4\\ \uD0D0\uD5D8\\ \uC720\uC801\uC758\\ \uD6A8\uACFC\\ ([-0-9,.]\u002B)%\\ \uC99D\uAC00$"
   },
   {
-    "text": "\uC9C0\uB3C4 \uB0B4 \uD0D0\uD5D8\uC5D0 \uBC14\uC54C \uC720\uBB3C #\uAC1C \uCD94\uAC00 \uB4F1\uC7A5",
-    "lines": 1,
-    "tradeIds": [
-      "explicit.stat_2852112245"
-    ],
-    "pattern": "^\uC9C0\uB3C4\\ \uB0B4\\ \uD0D0\uD5D8\uC5D0\\ \uBC14\uC54C\\ \uC720\uBB3C\\ ([-0-9,.]\u002B)\uAC1C\\ \uCD94\uAC00\\ \uB4F1\uC7A5$"
-  },
-  {
     "text": "\uC9C0\uB3C4 \uB0B4 \uD0D0\uD5D8\uC5D0 \uBC14\uC54C \uC720\uBB3C 1\uAC1C \uCD94\uAC00 \uB4F1\uC7A5",
     "lines": 1,
     "tradeIds": [
       "explicit.stat_2852112245"
     ],
     "pattern": "^\uC9C0\uB3C4\\ \uB0B4\\ \uD0D0\uD5D8\uC5D0\\ \uBC14\uC54C\\ \uC720\uBB3C\\ 1\uAC1C\\ \uCD94\uAC00\\ \uB4F1\uC7A5$"
-  },
-  {
-    "text": "\uC9C0\uB3C4 \uB0B4 \uD0D0\uD5D8\uC5D0 \uBCA0\uB9AC\uC2DC\uC6C0 \uBCF4\uCD08 #\uB9C8\uB9AC \uCD94\uAC00 \uB4F1\uC7A5",
-    "lines": 1,
-    "tradeIds": [
-      "explicit.stat_1109460697"
-    ],
-    "pattern": "^\uC9C0\uB3C4\\ \uB0B4\\ \uD0D0\uD5D8\uC5D0\\ \uBCA0\uB9AC\uC2DC\uC6C0\\ \uBCF4\uCD08\\ ([-0-9,.]\u002B)\uB9C8\uB9AC\\ \uCD94\uAC00\\ \uB4F1\uC7A5$"
   },
   {
     "text": "\uC9C0\uB3C4 \uB0B4 \uD0D0\uD5D8\uC5D0 \uBCA0\uB9AC\uC2DC\uC6C0 \uBCF4\uCD08 1\uB9C8\uB9AC \uCD94\uAC00 \uB4F1\uC7A5",
@@ -23459,28 +23411,12 @@
     "pattern": "^\uC9C0\uB3C4\\ \uB0B4\\ \uD0D0\uD5D8\uC5D0\\ \uBCA0\uB9AC\uC2DC\uC6C0\\ \uBCF4\uCD08\\ 1\uB9C8\uB9AC\\ \uCD94\uAC00\\ \uB4F1\uC7A5$"
   },
   {
-    "text": "\uC9C0\uB3C4 \uB0B4 \uD0D0\uD5D8\uC5D0 \uC5BC\uC74C\uC5D0 \uB4A4\uB36E\uC778 \uBCF4\uC2A4 #\uB9C8\uB9AC \uCD94\uAC00 \uB4F1\uC7A5",
-    "lines": 1,
-    "tradeIds": [
-      "explicit.stat_1183698646"
-    ],
-    "pattern": "^\uC9C0\uB3C4\\ \uB0B4\\ \uD0D0\uD5D8\uC5D0\\ \uC5BC\uC74C\uC5D0\\ \uB4A4\uB36E\uC778\\ \uBCF4\uC2A4\\ ([-0-9,.]\u002B)\uB9C8\uB9AC\\ \uCD94\uAC00\\ \uB4F1\uC7A5$"
-  },
-  {
     "text": "\uC9C0\uB3C4 \uB0B4 \uD0D0\uD5D8\uC5D0 \uC5BC\uC74C\uC5D0 \uB4A4\uB36E\uC778 \uBCF4\uC2A4 1\uB9C8\uB9AC \uCD94\uAC00 \uB4F1\uC7A5",
     "lines": 1,
     "tradeIds": [
       "explicit.stat_1183698646"
     ],
     "pattern": "^\uC9C0\uB3C4\\ \uB0B4\\ \uD0D0\uD5D8\uC5D0\\ \uC5BC\uC74C\uC5D0\\ \uB4A4\uB36E\uC778\\ \uBCF4\uC2A4\\ 1\uB9C8\uB9AC\\ \uCD94\uAC00\\ \uB4F1\uC7A5$"
-  },
-  {
-    "text": "\uC9C0\uB3C4 \uB0B4 \uD0D0\uD5D8\uC5D0 \uBB3B\uD78C \uAE08\uACE0 #\uAC1C \uB4F1\uC7A5",
-    "lines": 1,
-    "tradeIds": [
-      "explicit.stat_181823691"
-    ],
-    "pattern": "^\uC9C0\uB3C4\\ \uB0B4\\ \uD0D0\uD5D8\uC5D0\\ \uBB3B\uD78C\\ \uAE08\uACE0\\ ([-0-9,.]\u002B)\uAC1C\\ \uB4F1\uC7A5$"
   },
   {
     "text": "\uC9C0\uB3C4 \uB0B4 \uD0D0\uD5D8\uC5D0 \uBB3B\uD78C \uAE08\uACE0 1\uAC1C \uB4F1\uC7A5",
@@ -23563,14 +23499,6 @@
     "pattern": "^\uC9C0\uB3C4\\ \uB0B4\\ \uC758\uC2DD\\ \uC81C\uB2E8\uC5D0\uC11C\\ \uD76C\uC0DD\uB418\uB294\\ \uBAAC\uC2A4\uD130\uAC00\\ \uC8FC\uB294\\ \uACF5\uBB3C\\ \uC810\uC218\\ ([-0-9,.]\u002B)%\\ \uC99D\uAC00$"
   },
   {
-    "text": "\uC9C0\uB3C4 \uB0B4 \uC758\uC2DD \uC81C\uB2E8\uC774 \uD5CC\uC815\uD488 \uBB34\uC791\uC704 \uBCC0\uACBD \uCD94\uAC00 #\uD68C \uD5C8\uC6A9",
-    "lines": 1,
-    "tradeIds": [
-      "explicit.stat_120737942"
-    ],
-    "pattern": "^\uC9C0\uB3C4\\ \uB0B4\\ \uC758\uC2DD\\ \uC81C\uB2E8\uC774\\ \uD5CC\uC815\uD488\\ \uBB34\uC791\uC704\\ \uBCC0\uACBD\\ \uCD94\uAC00\\ ([-0-9,.]\u002B)\uD68C\\ \uD5C8\uC6A9$"
-  },
-  {
     "text": "\uC9C0\uB3C4 \uB0B4 \uC758\uC2DD \uC81C\uB2E8\uC774 \uD5CC\uC815\uD488 \uBB34\uC791\uC704 \uBCC0\uACBD \uCD94\uAC00 1\uD68C \uD5C8\uC6A9",
     "lines": 1,
     "tradeIds": [
@@ -23598,7 +23526,6 @@
     "text": "\uC9C0\uB3C4\uC5D0 \uC544\uC988\uBA54\uB9AC \uD63C\uBC31 #\uAC1C \uCD94\uAC00 \uB4F1\uC7A5",
     "lines": 1,
     "tradeIds": [
-      "explicit.stat_775597083",
       "explicit.stat_358129101"
     ],
     "pattern": "^\uC9C0\uB3C4\uC5D0\\ \uC544\uC988\uBA54\uB9AC\\ \uD63C\uBC31\\ ([-0-9,.]\u002B)\uAC1C\\ \uCD94\uAC00\\ \uB4F1\uC7A5$"
@@ -23648,7 +23575,6 @@
     "text": "\uC9C0\uB3C4\uC5D0 \uAE08\uACE0 #\uAC1C \uCD94\uAC00 \uB4F1\uC7A5",
     "lines": 1,
     "tradeIds": [
-      "explicit.stat_3040603554",
       "explicit.stat_3240183538"
     ],
     "pattern": "^\uC9C0\uB3C4\uC5D0\\ \uAE08\uACE0\\ ([-0-9,.]\u002B)\uAC1C\\ \uCD94\uAC00\\ \uB4F1\uC7A5$"
@@ -131246,10 +131172,7 @@
   {
     "text": "\uC9C0\uB3C4\uC5D0 \uC131\uC18C #\uAC1C \uCD94\uAC00 \uB4F1\uC7A5",
     "lines": 1,
-    "tradeIds": [
-      "explicit.stat_3042527515",
-      "explicit.stat_1468737867"
-    ],
+    "tradeIds": [],
     "pattern": "^\uC9C0\uB3C4\uC5D0\\ \uC131\uC18C\\ ([-0-9,.]\u002B)\uAC1C\\ \uCD94\uAC00\\ \uB4F1\uC7A5$"
   },
   {
@@ -131407,9 +131330,7 @@
   {
     "text": "\uC9C0\uB3C4\uC5D0 \uC5D0\uC13C\uC2A4 #\uAC1C \uCD94\uAC00 \uB4F1\uC7A5",
     "lines": 1,
-    "tradeIds": [
-      "explicit.stat_2162684861"
-    ],
+    "tradeIds": [],
     "pattern": "^\uC9C0\uB3C4\uC5D0\\ \uC5D0\uC13C\uC2A4\\ ([-0-9,.]\u002B)\uAC1C\\ \uCD94\uAC00\\ \uB4F1\uC7A5$"
   },
   {
@@ -131838,9 +131759,7 @@
   {
     "text": "\uC9C0\uB3C4\uC5D0 \uD76C\uADC0 \uC0C1\uC790 #\uAC1C \uCD94\uAC00 \uB4F1\uC7A5",
     "lines": 1,
-    "tradeIds": [
-      "explicit.stat_231864447"
-    ],
+    "tradeIds": [],
     "pattern": "^\uC9C0\uB3C4\uC5D0\\ \uD76C\uADC0\\ \uC0C1\uC790\\ ([-0-9,.]\u002B)\uAC1C\\ \uCD94\uAC00\\ \uB4F1\uC7A5$"
   },
   {

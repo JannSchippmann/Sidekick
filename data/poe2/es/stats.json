@@ -4824,6 +4824,14 @@
     "pattern": "^Al\\ infligir\\ da\u00F1o\\ elemental\\ con\\ un\\ impacto,\\ ganas\\ ([-0-9,.]\u002B)\\ de\\ afinidad\\ del\\ tipo\\ de\\ da\u00F1o\\ elemental\\ m\u00E1s\\ alto\\ y\\ pierdes\\ ([-0-9,.]\u002B)\\ de\\ afinidad\\ de\\ los\\ otros\\ tipos$"
   },
   {
+    "text": "matar monstruos raros en el mapa pausa el contador del espejo de delirio durante # segundos",
+    "lines": 1,
+    "tradeIds": [
+      "explicit.stat_2323782229"
+    ],
+    "pattern": "^matar\\ monstruos\\ raros\\ en\\ el\\ mapa\\ pausa\\ el\\ contador\\ del\\ espejo\\ de\\ delirio\\ durante\\ ([-0-9,.]\u002B)\\ segundos$"
+  },
+  {
     "text": "Al matar monstruos raros en el \u00E1rea, se pausa el temporizador del espejo del delirio durante 1 segundo",
     "value": 1,
     "lines": 1,
@@ -50304,9 +50312,19 @@
     "text": "El mapa contiene # cajas fuertes adicionales",
     "lines": 1,
     "tradeIds": [
+      "explicit.stat_3040603554",
       "explicit.stat_3240183538"
     ],
     "pattern": "^El\\ mapa\\ contiene\\ ([-0-9,.]\u002B)\\ cajas\\ fuertes\\ adicionales$"
+  },
+  {
+    "text": "El mapa contiene # esp\u00EDritus azmerianos adicionales",
+    "lines": 1,
+    "tradeIds": [
+      "explicit.stat_775597083",
+      "explicit.stat_358129101"
+    ],
+    "pattern": "^El\\ mapa\\ contiene\\ ([-0-9,.]\u002B)\\ esp\u00EDritus\\ azmerianos\\ adicionales$"
   },
   {
     "text": "El mapa contiene # esp\u00EDritu azmeriano adicional",
@@ -50349,6 +50367,14 @@
     "pattern": "^El\\ mapa\\ contiene\\ un\\ abismo\\ adicional$"
   },
   {
+    "text": "El mapa contiene # cofres raros adicionales",
+    "lines": 1,
+    "tradeIds": [
+      "explicit.stat_231864447"
+    ],
+    "pattern": "^El\\ mapa\\ contiene\\ ([-0-9,.]\u002B)\\ cofres\\ raros\\ adicionales$"
+  },
+  {
     "text": "El mapa contiene un cofre raro adicional",
     "lines": 1,
     "tradeIds": [
@@ -50373,6 +50399,15 @@
     "pattern": "^El\\ mapa\\ contiene\\ un\\ esp\u00EDritu\\ azmeriano\\ adicional$"
   },
   {
+    "text": "El mapa contiene # santuarios adicionales",
+    "lines": 1,
+    "tradeIds": [
+      "explicit.stat_3042527515",
+      "explicit.stat_1468737867"
+    ],
+    "pattern": "^El\\ mapa\\ contiene\\ ([-0-9,.]\u002B)\\ santuarios\\ adicionales$"
+  },
+  {
     "text": "El mapa contiene un santuario adicional",
     "lines": 1,
     "tradeIds": [
@@ -50388,6 +50423,14 @@
       "explicit.stat_3040603554"
     ],
     "pattern": "^El\\ mapa\\ contiene\\ una\\ caja\\ fuerte\\ adicional$"
+  },
+  {
+    "text": "El mapa contiene # esencias adicionales",
+    "lines": 1,
+    "tradeIds": [
+      "explicit.stat_2162684861"
+    ],
+    "pattern": "^El\\ mapa\\ contiene\\ ([-0-9,.]\u002B)\\ esencias\\ adicionales$"
   },
   {
     "text": "El mapa contiene una esencia adicional",
@@ -51079,6 +51122,14 @@
     "lines": 1,
     "tradeIds": [],
     "pattern": "^El\\ primer\\ impacto\\ inflige\\ un\\ ([-0-9,.]\u002B)%\\ m\u00E1s\\ de\\ da\u00F1o$"
+  },
+  {
+    "text": "Los # primeros monstruos r\u00FAnicos exhumados en el mapa ser\u00E1n monstruos raros",
+    "lines": 1,
+    "tradeIds": [
+      "explicit.stat_3963944561"
+    ],
+    "pattern": "^Los\\ ([-0-9,.]\u002B)\\ primeros\\ monstruos\\ r\u00FAnicos\\ exhumados\\ en\\ el\\ mapa\\ ser\u00E1n\\ monstruos\\ raros$"
   },
   {
     "text": "El primer monstruo r\u00FAnico exhumado en el mapa ser\u00E1 un monstruo raro",
@@ -72338,6 +72389,14 @@
     "pattern": "^Las\\ ciudades\\ vaal\\ tambi\u00E9n\\ se\\ consideran\\ \u00E1reas\\ de\\ bosque$"
   },
   {
+    "text": "Las colmenas de fisura del mapa tienen # oleadas adicionales de monstruos nacidos de la colmena",
+    "lines": 1,
+    "tradeIds": [
+      "explicit.stat_2734787892"
+    ],
+    "pattern": "^Las\\ colmenas\\ de\\ fisura\\ del\\ mapa\\ tienen\\ ([-0-9,.]\u002B)\\ oleadas\\ adicionales\\ de\\ monstruos\\ nacidos\\ de\\ la\\ colmena$"
+  },
+  {
     "text": "Las colmenas de fisura del mapa tienen una oleada adicional de monstruos nacidos de la colmena",
     "lines": 1,
     "tradeIds": [
@@ -72609,6 +72668,14 @@
     "pattern": "^Las\\ expediciones\\ ahora\\ pueden\\ contener\\ centinelas\\ de\\ verisium$"
   },
   {
+    "text": "Las expediciones contienen # cajas fuertes enterradas en el mapa",
+    "lines": 1,
+    "tradeIds": [
+      "explicit.stat_181823691"
+    ],
+    "pattern": "^Las\\ expediciones\\ contienen\\ ([-0-9,.]\u002B)\\ cajas\\ fuertes\\ enterradas\\ en\\ el\\ mapa$"
+  },
+  {
     "text": "Las expediciones contienen 1 caja fuerte enterrada en el mapa",
     "lines": 1,
     "tradeIds": [
@@ -72617,12 +72684,28 @@
     "pattern": "^Las\\ expediciones\\ contienen\\ 1\\ caja\\ fuerte\\ enterrada\\ en\\ el\\ mapa$"
   },
   {
+    "text": "Las expediciones contienen # jefes adicionales recubiertos con hielo en el mapa",
+    "lines": 1,
+    "tradeIds": [
+      "explicit.stat_1183698646"
+    ],
+    "pattern": "^Las\\ expediciones\\ contienen\\ ([-0-9,.]\u002B)\\ jefes\\ adicionales\\ recubiertos\\ con\\ hielo\\ en\\ el\\ mapa$"
+  },
+  {
     "text": "Las expediciones contienen 1 jefe adicional recubierto con hielo en el mapa",
     "lines": 1,
     "tradeIds": [
       "explicit.stat_1183698646"
     ],
     "pattern": "^Las\\ expediciones\\ contienen\\ 1\\ jefe\\ adicional\\ recubierto\\ con\\ hielo\\ en\\ el\\ mapa$"
+  },
+  {
+    "text": "Las expediciones contienen # reliquias vaal en el mapa",
+    "lines": 1,
+    "tradeIds": [
+      "explicit.stat_2852112245"
+    ],
+    "pattern": "^Las\\ expediciones\\ contienen\\ ([-0-9,.]\u002B)\\ reliquias\\ vaal\\ en\\ el\\ mapa$"
   },
   {
     "text": "Las expediciones contienen 1 reliquia vaal en el mapa",
@@ -73217,6 +73300,14 @@
     "lines": 1,
     "tradeIds": [],
     "pattern": "^Las\\ fisuras\\ del\\ \u00E1rea\\ tienen\\ la\\ probabilidad\\ de\\ pertenecer\\ a\\ Xoph\\ reducida\\ un\\ ([-0-9,.]\u002B)%$"
+  },
+  {
+    "text": "Las fisuras inestables del mapa generan # monstruos raros adicionales cuando se estabilizan",
+    "lines": 1,
+    "tradeIds": [
+      "explicit.stat_3762913035"
+    ],
+    "pattern": "^Las\\ fisuras\\ inestables\\ del\\ mapa\\ generan\\ ([-0-9,.]\u002B)\\ monstruos\\ raros\\ adicionales\\ cuando\\ se\\ estabilizan$"
   },
   {
     "text": "Las fisuras inestables del mapa generan un monstruo raro adicional cuando se estabilizan",
@@ -91004,6 +91095,14 @@
     "lines": 1,
     "tradeIds": [],
     "pattern": "^Los\\ altares\\ de\\ ritual\\ de\\ tus\\ mapas\\ tienen\\ una\\ aleatorizaci\u00F3n\\ gratuita\\ adicional$"
+  },
+  {
+    "text": "Los altares de ritual del mapa te permiten aleatorizar los favores # veces adicionales",
+    "lines": 1,
+    "tradeIds": [
+      "explicit.stat_120737942"
+    ],
+    "pattern": "^Los\\ altares\\ de\\ ritual\\ del\\ mapa\\ te\\ permiten\\ aleatorizar\\ los\\ favores\\ ([-0-9,.]\u002B)\\ veces\\ adicionales$"
   },
   {
     "text": "Los altares de ritual del mapa te permiten aleatorizar los favores una vez adicional",

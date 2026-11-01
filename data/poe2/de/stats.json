@@ -25645,6 +25645,14 @@
     "pattern": "^Das\\ T\u00F6ten\\ von\\ Gegnern\\ in\\ Euren\\ Karten\\ hat\\ ([-0-9,.]\u002B)%\\ verringerte\\ Chance,\\ Vereinigte\\ Verderbtheit\\ zu\\ beschw\u00F6ren$"
   },
   {
+    "text": "Das T\u00F6ten von seltenen Monstern in der Karte pausiert den Timer des Deliriumspiegels f\u00FCr # Sekunden",
+    "lines": 1,
+    "tradeIds": [
+      "explicit.stat_2323782229"
+    ],
+    "pattern": "^Das\\ T\u00F6ten\\ von\\ seltenen\\ Monstern\\ in\\ der\\ Karte\\ pausiert\\ den\\ Timer\\ des\\ Deliriumspiegels\\ f\u00FCr\\ ([-0-9,.]\u002B)\\ Sekunden$"
+  },
+  {
     "text": "Das T\u00F6ten von Monstern in Euren Karten pausiert den Timer des Deliriumspiegels f\u00FCr 1 Sekunde",
     "value": 1000,
     "lines": 1,
@@ -25864,6 +25872,14 @@
     "lines": 1,
     "tradeIds": [],
     "pattern": "^Das\\ erfolgreiche\\ Parieren\\ eines\\ Projektiltreffers\\ gew\u00E4hrt\\ Eurem\\ n\u00E4chsten\\ Nahkampfangriff\\ ([-0-9,.]\u002B)%\\ verringerten\\ Schaden$"
+  },
+  {
+    "text": "Die ersten # freigelegten Runenmonster in der Karte werden seltene Monster sein",
+    "lines": 1,
+    "tradeIds": [
+      "explicit.stat_3963944561"
+    ],
+    "pattern": "^Die\\ ersten\\ ([-0-9,.]\u002B)\\ freigelegten\\ Runenmonster\\ in\\ der\\ Karte\\ werden\\ seltene\\ Monster\\ sein$"
   },
   {
     "text": "Das erste freigelegte Runenmonster in der Karte wird ein seltenes Monster sein",
@@ -39707,6 +39723,14 @@
     "pattern": "^Eure\\ Karten\\ enthalten\\ eine\\ zus\u00E4tzliche\\ Anzahl\\ abtr\u00FCnniger\\ Verbannter\\ basierend\\ auf\\ der\\ Anzahl\\ zus\u00E4tzlicher\\ Inhalte\\ in\\ ihnen$"
   },
   {
+    "text": "Karte enth\u00E4lt # zus\u00E4tzliche Essenzen",
+    "lines": 1,
+    "tradeIds": [
+      "explicit.stat_2162684861"
+    ],
+    "pattern": "^Karte\\ enth\u00E4lt\\ ([-0-9,.]\u002B)\\ zus\u00E4tzliche\\ Essenzen$"
+  },
+  {
     "text": "Eure Karten enthalten eine zus\u00E4tzliche Essenz",
     "matchedFuzzily": true,
     "value": 1,
@@ -39821,6 +39845,15 @@
     "lines": 1,
     "tradeIds": [],
     "pattern": "^Eure\\ Karten\\ enthalten\\ einen\\ zus\u00E4tzlichen\\ Riss$"
+  },
+  {
+    "text": "Karte enth\u00E4lt # zus\u00E4tzliche Schreine",
+    "lines": 1,
+    "tradeIds": [
+      "explicit.stat_3042527515",
+      "explicit.stat_1468737867"
+    ],
+    "pattern": "^Karte\\ enth\u00E4lt\\ ([-0-9,.]\u002B)\\ zus\u00E4tzliche\\ Schreine$"
   },
   {
     "text": "Eure Karten enthalten einen zus\u00E4tzlichen Schrein",
@@ -42035,12 +42068,28 @@
     "pattern": "^Expeditionen\\ in\\ Euren\\ Karten\\ haben\\ ([-0-9,.]\u002B)%\\ verringerte\\ Chance,\\ von\\ Tujen\\ angef\u00FChrt\\ zu\\ werden$"
   },
   {
+    "text": "Expeditionen in der Karte enthalten # Vaal-Relikte",
+    "lines": 1,
+    "tradeIds": [
+      "explicit.stat_2852112245"
+    ],
+    "pattern": "^Expeditionen\\ in\\ der\\ Karte\\ enthalten\\ ([-0-9,.]\u002B)\\ Vaal-Relikte$"
+  },
+  {
     "text": "Expeditionen in der Karte enthalten 1 Vaal-Relikt",
     "lines": 1,
     "tradeIds": [
       "explicit.stat_2852112245"
     ],
     "pattern": "^Expeditionen\\ in\\ der\\ Karte\\ enthalten\\ 1\\ Vaal-Relikt$"
+  },
+  {
+    "text": "Expeditionen in der Karte enthalten # vergrabene Tresore",
+    "lines": 1,
+    "tradeIds": [
+      "explicit.stat_181823691"
+    ],
+    "pattern": "^Expeditionen\\ in\\ der\\ Karte\\ enthalten\\ ([-0-9,.]\u002B)\\ vergrabene\\ Tresore$"
   },
   {
     "text": "Expeditionen in der Karte enthalten 1 vergrabenen Tresor",
@@ -42051,12 +42100,28 @@
     "pattern": "^Expeditionen\\ in\\ der\\ Karte\\ enthalten\\ 1\\ vergrabenen\\ Tresor$"
   },
   {
+    "text": "Expeditionen in der Karte enthalten # zus\u00E4tzliche Bosse, die in Eis eingeschlossen sind",
+    "lines": 1,
+    "tradeIds": [
+      "explicit.stat_1183698646"
+    ],
+    "pattern": "^Expeditionen\\ in\\ der\\ Karte\\ enthalten\\ ([-0-9,.]\u002B)\\ zus\u00E4tzliche\\ Bosse,\\ die\\ in\\ Eis\\ eingeschlossen\\ sind$"
+  },
+  {
     "text": "Expeditionen in der Karte enthalten 1 zus\u00E4tzlichen Boss, der in Eis eingeschlossen ist",
     "lines": 1,
     "tradeIds": [
       "explicit.stat_1183698646"
     ],
     "pattern": "^Expeditionen\\ in\\ der\\ Karte\\ enthalten\\ 1\\ zus\u00E4tzlichen\\ Boss,\\ der\\ in\\ Eis\\ eingeschlossen\\ ist$"
+  },
+  {
+    "text": "Expeditionen in der Karte enthalten # zus\u00E4tzliche Verisium-W\u00E4chter",
+    "lines": 1,
+    "tradeIds": [
+      "explicit.stat_1109460697"
+    ],
+    "pattern": "^Expeditionen\\ in\\ der\\ Karte\\ enthalten\\ ([-0-9,.]\u002B)\\ zus\u00E4tzliche\\ Verisium-W\u00E4chter$"
   },
   {
     "text": "Expeditionen in der Karte enthalten 1 zus\u00E4tzlichen Verisium-W\u00E4chter",
@@ -46083,6 +46148,14 @@
     "pattern": "^Gaben\\ in\\ Ritual-Alt\u00E4ren\\ in\\ Euren\\ Karten\\ kosten\\ zuf\u00E4llig\\ zwischen\\ 90%\\ weniger\\ und\\ 80%\\ mehr\\ Tribut$"
   },
   {
+    "text": "Gaben von Ritual-Alt\u00E4re in der Karte k\u00F6nnen # zus\u00E4tzliche Male gew\u00FCrfelt werden",
+    "lines": 1,
+    "tradeIds": [
+      "explicit.stat_120737942"
+    ],
+    "pattern": "^Gaben\\ von\\ Ritual-Alt\u00E4re\\ in\\ der\\ Karte\\ k\u00F6nnen\\ ([-0-9,.]\u002B)\\ zus\u00E4tzliche\\ Male\\ gew\u00FCrfelt\\ werden$"
+  },
+  {
     "text": "Gaben in Ritual-Alt\u00E4ren in Euren Karten k\u00F6nnen ein zus\u00E4tzliches Mal kostenlos gew\u00FCrfelt werden",
     "matchedFuzzily": true,
     "value": 1,
@@ -47337,6 +47410,15 @@
       "explicit.stat_1468737867"
     ],
     "pattern": "^Gebiet\\ enth\u00E4lt\\ ([-0-9,.]\u002B)\\ zus\u00E4tzliche\\ Aufgeladene\\ Schreine$"
+  },
+  {
+    "text": "Karte enth\u00E4lt # zus\u00E4tzliche Azmeri-Geister",
+    "lines": 1,
+    "tradeIds": [
+      "explicit.stat_775597083",
+      "explicit.stat_358129101"
+    ],
+    "pattern": "^Karte\\ enth\u00E4lt\\ ([-0-9,.]\u002B)\\ zus\u00E4tzliche\\ Azmeri-Geister$"
   },
   {
     "text": "Gebiet enth\u00E4lt # zus\u00E4tzliche Azmeri-Geister",
@@ -61625,6 +61707,14 @@
     "pattern": "^Instabile\\ Risse\\ ben\u00F6tigen\\ nach\\ dem\\ F\u00FCllen\\ des\\ Timers\\ ([-0-9,.]\u002B)\\ zus\u00E4tzliche\\ Sekunden,\\ bis\\ sie\\ zusammenbrechen$"
   },
   {
+    "text": "Instabile Risse in Karten erzeugen # zus\u00E4tzliche seltene Monster, wenn sie stabilisiert werden",
+    "lines": 1,
+    "tradeIds": [
+      "explicit.stat_3762913035"
+    ],
+    "pattern": "^Instabile\\ Risse\\ in\\ Karten\\ erzeugen\\ ([-0-9,.]\u002B)\\ zus\u00E4tzliche\\ seltene\\ Monster,\\ wenn\\ sie\\ stabilisiert\\ werden$"
+  },
+  {
     "text": "Instabile Risse erzeugen ein zus\u00E4tzliches seltenes Monster, wenn sie stabilisiert werden",
     "value": 1,
     "lines": 1,
@@ -63805,6 +63895,14 @@
     "pattern": "^Karte\\ enth\u00E4lt\\ eine\\ zus\u00E4tzliche\\ Essenz$"
   },
   {
+    "text": "Karte enth\u00E4lt # zus\u00E4tzliche seltene Truhen",
+    "lines": 1,
+    "tradeIds": [
+      "explicit.stat_231864447"
+    ],
+    "pattern": "^Karte\\ enth\u00E4lt\\ ([-0-9,.]\u002B)\\ zus\u00E4tzliche\\ seltene\\ Truhen$"
+  },
+  {
     "text": "Karte enth\u00E4lt eine zus\u00E4tzliche seltene Truhe",
     "lines": 1,
     "tradeIds": [
@@ -63891,6 +63989,7 @@
     "text": "Karte enth\u00E4lt # zus\u00E4tzliche Tresore",
     "lines": 1,
     "tradeIds": [
+      "explicit.stat_3040603554",
       "explicit.stat_3240183538"
     ],
     "pattern": "^Karte\\ enth\u00E4lt\\ ([-0-9,.]\u002B)\\ zus\u00E4tzliche\\ Tresore$"
@@ -83715,6 +83814,14 @@
       "sanctum.stat_1890519597"
     ],
     "pattern": "^Riss-Monster\\ verursachen\\ ([-0-9,.]\u002B)%\\ verringerten\\ Schaden$"
+  },
+  {
+    "text": "Riss-Schw\u00E4rme in der Karte haben # zus\u00E4tzliche Wellen von schwarmgeborenen Monstern",
+    "lines": 1,
+    "tradeIds": [
+      "explicit.stat_2734787892"
+    ],
+    "pattern": "^Riss-Schw\u00E4rme\\ in\\ der\\ Karte\\ haben\\ ([-0-9,.]\u002B)\\ zus\u00E4tzliche\\ Wellen\\ von\\ schwarmgeborenen\\ Monstern$"
   },
   {
     "text": "Riss-Schw\u00E4rme haben eine zus\u00E4tzliche Welle von Schwarmgeborenen Monstern",

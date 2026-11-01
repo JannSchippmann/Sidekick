@@ -15297,6 +15297,15 @@
     "pattern": "^Area\\ contains\\ ([-0-9,.]\u002B)\\ additional\\ Animated\\ Weapon\\ Packs$"
   },
   {
+    "text": "Map contains # additional Azmeri Spirits",
+    "lines": 1,
+    "tradeIds": [
+      "explicit.stat_775597083",
+      "explicit.stat_358129101"
+    ],
+    "pattern": "^Map\\ contains\\ ([-0-9,.]\u002B)\\ additional\\ Azmeri\\ Spirits$"
+  },
+  {
     "text": "Area contains # additional Azmeri Spirit",
     "value": 1,
     "lines": 1,
@@ -15318,6 +15327,23 @@
     "lines": 1,
     "tradeIds": [],
     "pattern": "^Area\\ contains\\ ([-0-9,.]\u002B)\\ additional\\ Bloodworm\\ Chest\\ Clusters$"
+  },
+  {
+    "text": "Map contains # additional Essences",
+    "lines": 1,
+    "tradeIds": [
+      "explicit.stat_2162684861"
+    ],
+    "pattern": "^Map\\ contains\\ ([-0-9,.]\u002B)\\ additional\\ Essences$"
+  },
+  {
+    "text": "Map contains # additional Shrines",
+    "lines": 1,
+    "tradeIds": [
+      "explicit.stat_3042527515",
+      "explicit.stat_1468737867"
+    ],
+    "pattern": "^Map\\ contains\\ ([-0-9,.]\u002B)\\ additional\\ Shrines$"
   },
   {
     "text": "Area contains # additional Breaches",
@@ -25135,6 +25161,14 @@
     "lines": 1,
     "tradeIds": [],
     "pattern": "^Breach\\ Hives\\ have\\ ([-0-9,.]\u002B)\\ additional\\ waves\\ of\\ Hiveborn\\ Monsters$"
+  },
+  {
+    "text": "Breach Hives in Map have # additional waves of Hiveborn Monsters",
+    "lines": 1,
+    "tradeIds": [
+      "explicit.stat_2734787892"
+    ],
+    "pattern": "^Breach\\ Hives\\ in\\ Map\\ have\\ ([-0-9,.]\u002B)\\ additional\\ waves\\ of\\ Hiveborn\\ Monsters$"
   },
   {
     "text": "Breach Hives have an additional wave of Hiveborn Monsters",
@@ -43063,12 +43097,28 @@
     "pattern": "^Expedition\\ encounters\\ in\\ your\\ Maps\\ contain\\ ([-0-9,.]\u002B)\\ additional\\ Chest\\ Markers$"
   },
   {
+    "text": "Expeditions contain # Additional Bosses encased in ice in Map",
+    "lines": 1,
+    "tradeIds": [
+      "explicit.stat_1183698646"
+    ],
+    "pattern": "^Expeditions\\ contain\\ ([-0-9,.]\u002B)\\ Additional\\ Bosses\\ encased\\ in\\ ice\\ in\\ Map$"
+  },
+  {
     "text": "Expeditions contain 1 Additional Boss encased in ice in Map",
     "lines": 1,
     "tradeIds": [
       "explicit.stat_1183698646"
     ],
     "pattern": "^Expeditions\\ contain\\ 1\\ Additional\\ Boss\\ encased\\ in\\ ice\\ in\\ Map$"
+  },
+  {
+    "text": "Expeditions contain # Additional Verisium Sentries in Map",
+    "lines": 1,
+    "tradeIds": [
+      "explicit.stat_1109460697"
+    ],
+    "pattern": "^Expeditions\\ contain\\ ([-0-9,.]\u002B)\\ Additional\\ Verisium\\ Sentries\\ in\\ Map$"
   },
   {
     "text": "Expeditions contain 1 Additional Verisium Sentry in Map",
@@ -43079,12 +43129,28 @@
     "pattern": "^Expeditions\\ contain\\ 1\\ Additional\\ Verisium\\ Sentry\\ in\\ Map$"
   },
   {
+    "text": "Expeditions contain # Vaal Relics in Map",
+    "lines": 1,
+    "tradeIds": [
+      "explicit.stat_2852112245"
+    ],
+    "pattern": "^Expeditions\\ contain\\ ([-0-9,.]\u002B)\\ Vaal\\ Relics\\ in\\ Map$"
+  },
+  {
     "text": "Expeditions contain 1 Vaal Relic in Map",
     "lines": 1,
     "tradeIds": [
       "explicit.stat_2852112245"
     ],
     "pattern": "^Expeditions\\ contain\\ 1\\ Vaal\\ Relic\\ in\\ Map$"
+  },
+  {
+    "text": "Expeditions contain # buried Strongboxes in Map",
+    "lines": 1,
+    "tradeIds": [
+      "explicit.stat_181823691"
+    ],
+    "pattern": "^Expeditions\\ contain\\ ([-0-9,.]\u002B)\\ buried\\ Strongboxes\\ in\\ Map$"
   },
   {
     "text": "Expeditions contain 1 buried Strongbox in Map",
@@ -64608,6 +64674,7 @@
     "text": "Map contains # additional Strongboxes",
     "lines": 1,
     "tradeIds": [
+      "explicit.stat_3040603554",
       "explicit.stat_3240183538"
     ],
     "pattern": "^Map\\ contains\\ ([-0-9,.]\u002B)\\ additional\\ Strongboxes$"
@@ -64636,6 +64703,14 @@
       "explicit.stat_395808938"
     ],
     "pattern": "^Map\\ contains\\ an\\ additional\\ Essence$"
+  },
+  {
+    "text": "Map contains # additional Rare Chests",
+    "lines": 1,
+    "tradeIds": [
+      "explicit.stat_231864447"
+    ],
+    "pattern": "^Map\\ contains\\ ([-0-9,.]\u002B)\\ additional\\ Rare\\ Chests$"
   },
   {
     "text": "Map contains an additional Rare Chest",
@@ -86865,6 +86940,14 @@
     "pattern": "^Ritual\\ Altars\\ allow\\ rerolling\\ Favours\\ ([-0-9,.]\u002B)\\ additional\\ times$"
   },
   {
+    "text": "Ritual Altars in Map allow rerolling Favours # additional times",
+    "lines": 1,
+    "tradeIds": [
+      "explicit.stat_120737942"
+    ],
+    "pattern": "^Ritual\\ Altars\\ in\\ Map\\ allow\\ rerolling\\ Favours\\ ([-0-9,.]\u002B)\\ additional\\ times$"
+  },
+  {
     "text": "Ritual Altars allow rerolling Favours an additional time",
     "value": 1,
     "lines": 1,
@@ -90303,6 +90386,14 @@
     "lines": 1,
     "tradeIds": [],
     "pattern": "^Slaying\\ Enemies\\ in\\ your\\ Maps\\ has\\ a\\ ([-0-9,.]\u002B)%\\ reduced\\ chance\\ to\\ spawn\\ a\\ Coalesced\\ Corruption$"
+  },
+  {
+    "text": "Slaying Rare Monsters in Map pauses the Delirium Mirror Timer for # seconds",
+    "lines": 1,
+    "tradeIds": [
+      "explicit.stat_2323782229"
+    ],
+    "pattern": "^Slaying\\ Rare\\ Monsters\\ in\\ Map\\ pauses\\ the\\ Delirium\\ Mirror\\ Timer\\ for\\ ([-0-9,.]\u002B)\\ seconds$"
   },
   {
     "text": "Slaying Monsters in your Maps pauses the Delirium Mirror Timer for 1 second",
@@ -106045,6 +106136,14 @@
     "pattern": "^The\\ first\\ time\\ a\\ Player\\ reaches\\ ([-0-9,.]\u002B)\\ Rampage\\ Kills\\ in\\ this\\ Area,\\ they\\ will\\ encounter\\ a\\ Powerful\\ Monster$"
   },
   {
+    "text": "The first # unearthed Runic Monsters will be Rare Monsters in Map",
+    "lines": 1,
+    "tradeIds": [
+      "explicit.stat_3963944561"
+    ],
+    "pattern": "^The\\ first\\ ([-0-9,.]\u002B)\\ unearthed\\ Runic\\ Monsters\\ will\\ be\\ Rare\\ Monsters\\ in\\ Map$"
+  },
+  {
     "text": "The first unearthed Runic Monster will be a Rare Monster in Map",
     "lines": 1,
     "tradeIds": [
@@ -109724,6 +109823,14 @@
       "explicit.stat_2433436306"
     ],
     "pattern": "^Unstable\\ Breaches\\ in\\ Map\\ have\\ ([-0-9,.]\u002B)%\\ increased\\ chance\\ to\\ contain\\ Vruun,\\ Marshal\\ of\\ Xesht$"
+  },
+  {
+    "text": "Unstable Breaches in Map spawn # additional Rare Monsters when Stabilised",
+    "lines": 1,
+    "tradeIds": [
+      "explicit.stat_3762913035"
+    ],
+    "pattern": "^Unstable\\ Breaches\\ in\\ Map\\ spawn\\ ([-0-9,.]\u002B)\\ additional\\ Rare\\ Monsters\\ when\\ Stabilised$"
   },
   {
     "text": "Unstable Breaches in Map spawn an additional Rare Monster when Stabilised",

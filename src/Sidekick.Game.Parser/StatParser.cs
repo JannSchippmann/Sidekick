@@ -9,6 +9,7 @@ using Sidekick.Game.Parser.Filters.Types;
 using Sidekick.Game.Parser.Items;
 using Sidekick.Game.Parser.Localization;
 using Sidekick.Game.Parser.Stats;
+using Sidekick.Game.Parser.Steps;
 using Sidekick.Game.Providers;
 using Sidekick.Game.Providers.Languages;
 using Sidekick.Game.Stats;
@@ -24,8 +25,15 @@ public class StatParser
     ICurrentGameLanguage currentGameLanguage,
     IStringLocalizer<PoeResources> resources,
     DataProvider dataProvider
-) : IInitializableService
+) : IInitializableService, IItemParseStep
 {
+    /// <summary>
+    /// Skips the blocks the properties already parsed, so it runs after all of them.
+    /// </summary>
+    public ItemParseDependencies Dependencies { get; } = new(
+        [ItemParseData.Rarity, ItemParseData.Properties],
+        [ItemParseData.Stats]);
+
     public StatsInvariantDetails InvariantDetails { get; private set; } = new();
 
     private Dictionary<StatCategory, List<StatDefinition>> Definitions { get; set; } = [];

@@ -4,6 +4,7 @@ using Sidekick.Common.Enums;
 using Sidekick.Game.Parser.Filters.AutoSelect;
 using Sidekick.Game.Parser.Filters.Types;
 using Sidekick.Game.Parser.Items;
+using Sidekick.Game.Parser.Steps;
 using Sidekick.Game.Parser.Trade.Requests;
 using Sidekick.Game.Parser.Trade.Requests.Filters;
 using Sidekick.Game.Providers;
@@ -39,6 +40,20 @@ public class RarityProperty(
     };
 
     public override string Label => gameTextProvider.Texts.ItemPropertyRarity;
+
+    /// <summary>
+    /// Reads only the item text. The definition parser and most properties need the rarity, so it runs first.
+    /// </summary>
+    public override ItemParseDependencies ParseDependencies { get; } = new(
+        [],
+        [ItemParseData.Rarity, ItemParseData.Properties]);
+
+    /// <summary>
+    /// Promotes the rarity to unique from the definition. Requires the stats so that the stat parser still sees the rarity from the item text.
+    /// </summary>
+    public override ItemParseDependencies ParseAfterStatsDependencies { get; } = new(
+        [ItemParseData.Definition, ItemParseData.Stats],
+        [ItemParseData.PropertiesAfterStats]);
 
     public override void Parse(Item item)
     {

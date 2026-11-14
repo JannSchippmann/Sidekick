@@ -2,11 +2,36 @@ using System.Globalization;
 using System.Text.RegularExpressions;
 using Sidekick.Game.Parser.Filters.Types;
 using Sidekick.Game.Parser.Items;
+using Sidekick.Game.Parser.Steps;
 namespace Sidekick.Game.Parser.Properties;
 
 public abstract class PropertyDefinition
 {
+    /// <summary>
+    /// By default, properties are parsed once the item class, rarity and definition are known.
+    /// </summary>
+    public static ItemParseDependencies DefaultParseDependencies { get; } = new(
+        [ItemParseData.ItemClass, ItemParseData.Rarity, ItemParseData.Definition],
+        [ItemParseData.Properties]);
+
+    /// <summary>
+    /// By default, the after-stats parsing runs once the stats are parsed.
+    /// </summary>
+    public static ItemParseDependencies DefaultParseAfterStatsDependencies { get; } = new(
+        [ItemParseData.Stats],
+        [ItemParseData.PropertiesAfterStats]);
+
     public abstract string Label { get; }
+
+    /// <summary>
+    /// Orders <see cref="Parse"/> among the item parse steps. Override when the property is needed earlier, or needs other data.
+    /// </summary>
+    public virtual ItemParseDependencies ParseDependencies => DefaultParseDependencies;
+
+    /// <summary>
+    /// Orders <see cref="ParseAfterStats"/> among the item parse steps.
+    /// </summary>
+    public virtual ItemParseDependencies ParseAfterStatsDependencies => DefaultParseAfterStatsDependencies;
 
     public virtual void Parse(Item item) {}
 

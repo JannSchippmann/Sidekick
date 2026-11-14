@@ -6,6 +6,7 @@ using Sidekick.Game.Parser.Filters.Types;
 using Sidekick.Game.Parser.Items;
 using Sidekick.Game.Parser.Localization;
 using Sidekick.Game.Parser.Properties.Definitions;
+using Sidekick.Game.Parser.Steps;
 using Sidekick.Game.Providers;
 using Sidekick.Game.Providers.Languages;
 namespace Sidekick.Game.Parser.Properties;
@@ -145,21 +146,15 @@ public class PropertyParser
         throw new SidekickException($"Could not find definition of type {typeof(TDefinition).FullName}");
     }
 
-    public void Parse(Item item)
-    {
-        foreach (var definition in Definitions)
-        {
-            definition.Parse(item);
-        }
-    }
+    /// <summary>
+    /// One step per property for <see cref="PropertyDefinition.Parse"/>, in definition order.
+    /// </summary>
+    public IEnumerable<IItemParseStep> GetParseSteps() => Definitions.Select(x => new PropertyParseStep(x));
 
-    public void ParseAfterStats(Item item)
-    {
-        foreach (var definition in Definitions)
-        {
-            definition.ParseAfterStats(item);
-        }
-    }
+    /// <summary>
+    /// One step per property for <see cref="PropertyDefinition.ParseAfterStats"/>, in definition order.
+    /// </summary>
+    public IEnumerable<IItemParseStep> GetParseAfterStatsSteps() => Definitions.Select(x => new PropertyParseAfterStatsStep(x));
 
     public async Task<List<TradeFilter>> GetFilters(Item item)
     {

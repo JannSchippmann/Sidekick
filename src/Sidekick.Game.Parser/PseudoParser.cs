@@ -6,6 +6,7 @@ using Sidekick.Common.Settings;
 using Sidekick.Game.Parser.Filters.Types;
 using Sidekick.Game.Parser.Items;
 using Sidekick.Game.Parser.Localization;
+using Sidekick.Game.Parser.Steps;
 using Sidekick.Game.Providers;
 using Sidekick.Game.Providers.Languages;
 using Sidekick.Game.Pseudo;
@@ -16,8 +17,15 @@ public class PseudoParser
     ISettingsService settingsService,
     DataProvider dataProvider,
     ICurrentGameLanguage currentGameLanguage,
-    IStringLocalizer<PoeResources> resources) : IInitializableService
+    IStringLocalizer<PoeResources> resources) : IInitializableService, IItemParseStep
 {
+    /// <summary>
+    /// Reads the stats and the final rarity (after the definition may have promoted it to unique).
+    /// </summary>
+    public ItemParseDependencies Dependencies { get; } = new(
+        [ItemParseData.Stats, ItemParseData.PropertiesAfterStats],
+        [ItemParseData.PseudoStats]);
+
     private static readonly Regex ParseHashPattern = new(@"#");
 
     private List<PseudoDefinition> Definitions { get; set; } = [];

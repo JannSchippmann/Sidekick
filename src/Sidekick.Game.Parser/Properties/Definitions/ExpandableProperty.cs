@@ -1,5 +1,6 @@
 using Sidekick.Game.Parser.Filters.Types;
 using Sidekick.Game.Parser.Items;
+using Sidekick.Game.Parser.Steps;
 namespace Sidekick.Game.Parser.Properties.Definitions;
 
 public class ExpandableProperty
@@ -11,6 +12,10 @@ public class ExpandableProperty
     public List<PropertyDefinition> Definitions { get; } = definitions.ToList();
 
     public override string Label => label ?? string.Empty;
+
+    public override ItemParseDependencies ParseDependencies => ItemParseDependencies.Combine(Definitions.Select(x => x.ParseDependencies));
+
+    public override ItemParseDependencies ParseAfterStatsDependencies => ItemParseDependencies.Combine(Definitions.Select(x => x.ParseAfterStatsDependencies));
 
     public override void Parse(Item item)
     {

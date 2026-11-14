@@ -4,7 +4,7 @@ using Sidekick.Common.Initialization;
 using Sidekick.Common.Settings;
 using Sidekick.Game.Parser.Items;
 using Sidekick.Game.Parser.Properties;
-using Sidekick.Game.Parser.Properties.Definitions;
+using Sidekick.Game.Parser.Steps;
 namespace Sidekick.Game.Parser;
 
 public class ItemParser
@@ -21,9 +21,25 @@ public class ItemParser
 {
     private GameType Game { get; set; }
 
+    /// <summary>
+    /// The parse steps in dependency order. Resolved once per initialization; the property definitions are recreated by
+    /// <see cref="PropertyParser.Initialize"/>, which runs before this service because it is a constructor dependency.
+    /// </summary>
+    private List<IItemParseStep> Steps { get; set; } = [];
+
     public async Task Initialize()
     {
         Game = await settingsService.GetGame();
+
+        // Listed in the historical call order. The resolver only moves a step when a dependency requires it.
+        Steps = ItemParseStepResolver.Resolve([
+            itemClassParser,
+            itemDefinitionParser,
+            ..propertyParser.GetParseSteps(),
+            statParser,
+            ..propertyParser.GetParseAfterStatsSteps(),
+            pseudoParser,
+        ]);
     }
 
     public Item ParseItem(string? text)
@@ -37,17 +53,10 @@ public class ItemParser
 
             var item = new Item(Game, rawText);
 
-            // Rarity property is required for definition parsing. This means that it must be parsed first.
-            propertyParser.GetDefinition<RarityProperty>().Parse(item);
-            // Map area selects the area-specific trade item (e.g. Scrying Orb (Mesa)), so it is also needed before definition parsing.
-            propertyParser.GetDefinition<MapAreaProperty>().Parse(item);
-
-            itemClassParser.Parse(item);
-            itemDefinitionParser.Parse(item);
-            propertyParser.Parse(item);
-            statParser.Parse(item);
-            propertyParser.ParseAfterStats(item);
-            pseudoParser.Parse(item);
+            foreach (var step in Steps)
+            {
+                step.Parse(item);
+            }
 
             return item;
         }

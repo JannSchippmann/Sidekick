@@ -1,12 +1,17 @@
 using Sidekick.Game.Parser.Items;
+using Sidekick.Game.Parser.Steps;
 using Sidekick.Game.Providers;
 namespace Sidekick.Game.Parser;
 
 public class ItemClassParser(
     GameTextProvider gameTextProvider,
     ItemClassProvider itemClassProvider
-)
+) : IItemParseStep
 {
+    public ItemParseDependencies Dependencies { get; } = new(
+        [],
+        [ItemParseData.ItemClass]);
+
     public void Parse(Item item)
     {
         var line = item.Text.Blocks[0].Lines[0].Text;

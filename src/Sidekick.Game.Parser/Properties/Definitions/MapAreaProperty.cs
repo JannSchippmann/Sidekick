@@ -1,12 +1,13 @@
 using System.Text.RegularExpressions;
 using Sidekick.Game.Parser.Filters.Types;
 using Sidekick.Game.Parser.Items;
+using Sidekick.Game.Parser.Steps;
 using Sidekick.Game.Providers;
 namespace Sidekick.Game.Parser.Properties.Definitions;
 
 /// <summary>
 /// "Map Area: Mesa" on Scrying Orbs, Blighted maps and Valdo maps. The trade site has no filter for it.
-/// It is parsed before definition parsing, so an item like a Scrying Orb resolves to its area definition ("Scrying Orb (Mesa)").
+/// The definition parser requires it, so an item like a Scrying Orb resolves to its area definition ("Scrying Orb (Mesa)").
 /// </summary>
 public class MapAreaProperty(
     GameType game,
@@ -17,6 +18,13 @@ public class MapAreaProperty(
         : $"{gameTextProvider.Texts.ItemPropertyMapArea}: #".ToRegexStringProperty();
 
     public override string Label => gameTextProvider.Texts.ItemPropertyMapArea;
+
+    /// <summary>
+    /// Reads only the item text. The definition parser needs the map area, so it runs before it.
+    /// </summary>
+    public override ItemParseDependencies ParseDependencies { get; } = new(
+        [],
+        [ItemParseData.MapArea, ItemParseData.Properties]);
 
     public override void Parse(Item item)
     {

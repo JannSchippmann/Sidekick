@@ -3,6 +3,7 @@ using Sidekick.Common.Exceptions;
 using Sidekick.Game.ItemClasses;
 using Sidekick.Game.ItemDefinitions;
 using Sidekick.Game.Parser.Items;
+using Sidekick.Game.Parser.Steps;
 using Sidekick.Game.Providers;
 using Sidekick.Game.Providers.Languages;
 namespace Sidekick.Game.Parser;
@@ -12,8 +13,15 @@ public class ItemDefinitionParser(
     ItemClassProvider itemClassProvider,
     BaseItemProvider baseItemProvider,
     ItemDefinitionProvider itemDefinitionProvider
-)
+) : IItemParseStep
 {
+    /// <summary>
+    /// Also refines the item class: when the text has none (poe.ninja), it is filled from the definition.
+    /// </summary>
+    public ItemParseDependencies Dependencies { get; } = new(
+        [ItemParseData.Rarity, ItemParseData.MapArea, ItemParseData.ItemClass],
+        [ItemParseData.Definition, ItemParseData.ItemClass]);
+
     public void Parse(Item item)
     {
         item.Type = item.Text.Blocks[0].Lines[^1].Text;
